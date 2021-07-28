@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <div class="top"></div> -->
+  <div class="bottom">
+    <button class="left">←</button>
+    <button class="right">→</button>
+    <div class="fixed">我不动</div>
+  </div>
+  
+</body>
+<style>
+  .top{
+    position: relative;
+    top: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(240, 32, 240);
+  }
+  .bottom{
+    position: relative;
+    top: 200px;
+    height: 200px;
+    width: 300px;
+    background-color: skyblue;
+  }
+  .left{
+    height: 30px;
+    position: absolute;
+    top: 85px;
+    background-color: thistle;
+  }
+  .right{
+    height: 30px;
+    position: absolute;
+    top: 85px;
+    right: 0px;
+  }
+  .fixed{
+    position: fixed;
+    top: 100px;
+    right: 300px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 0, 0);
+  }
+</style>
+</html>
